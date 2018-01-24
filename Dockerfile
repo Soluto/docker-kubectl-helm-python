@@ -1,4 +1,4 @@
-FROM dtzar/helm-kubectl
+FROM dtzar/helm-kubectl:2.7.2
 
 RUN apk add --update \
     python \
